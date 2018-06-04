@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         choki.setOnClickListener{ onJankenButtonTapped(it) }
         pa.setOnClickListener{ onJankenButtonTapped(it) }
 
-        val pref = PreferenceManager.getDefaultSharedPreferences(this)
+        val pref = PreferenceManager.getDefaultSharedPreferences(this)  //wwwwww
         val editor = pref.edit()
         editor.clear().apply()
     }
